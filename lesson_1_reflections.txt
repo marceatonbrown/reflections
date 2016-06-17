@@ -1,0 +1,33 @@
+Q1. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+R1. By comparing the old file with the new file, line by line, it was tedious when carried out manually, unlike the FC command which showed the lines that where different between file versions. This reduced the level of 'noise' when scoping the files manually and allowed for a quicker resolution of any mistakes.
+
+Q2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+R2. Files contain stubs of code that could be useful when recalled and applied to new code.
+
+Q3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+R3. Pro's ... you decide based on the priorities of work & the logical aspects of the changes
+	Con's ... you forget to commit
+		  the commits are not aligned to logical aspects of changes
+		  the commits become fragmented, how many commits will cover one logical change ?
+
+Q4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+R4. Git appears to be aware of its usage as a programming tool where there are more likely to be multiple files used, as seen in the html & CSS example, whereas Google Docs expects the user to work in single documents.
+
+Q5. How can you use the commands git log and git diff to view the history of files?
+
+Once in the directory of the repository, the git log command will show the committed changes, these are given a unique reference and also show the author, date and time of change as well as a comment field that describes the purpose of the change.
+
+To show the additions and deletions between any two commits, we use the git diff command. The additional lines added are in green and the lines removed are in red.
+
+Q6. How might using version control make you more confident to make changes that could break something?
+
+Much more confident ... using git checkout it is possible to go back to a previous version and restore the files to a known working version.
+
+Q7. Now that you have your workspace set up, what do you want to try using Git for?
+
+Using GIT to maintain versions of code that will be shared between project members
+

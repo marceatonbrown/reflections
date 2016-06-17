@@ -1,0 +1,4 @@
+Q1. What happens when you initialize a repository? Why do you need to do it?
+
+To initialise a repository use 'git init' command, a '.git' directory will be created and the repository files initialised, this is necessary before git can add files to the repository. The repository will remain empty until a commit has taken place.
+
