@@ -1,1 +1,19 @@
 Reflections for Lesson 3
+
+Q1. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+A1. I am likely to use GitHub as a remote for my local changes and will push, mostly. If I need to pull changes it will be less frequently and I would want to know what I am adding to my local branch.
+
+Q2. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A2. Branches are sequences of changes in a repository; a repository can be copied (cloned) either locally or remotely; a cloned repository on GitHub is called a Fork. Cloned repositories are used to generate a separate copy that can be worked on independently of the original. The use of a Fork enables GitHub repositories to be shared without affecting the original GitHub repository which may not be accessible.
+
+Q3. What is the benefit of having a copy of the last known state of the remote stored locally?
+
+A3. The scenario shared described a way of retrieving a copy of the remote (origin) to store locally (origin/master) so that I do not need to be online when working on branches that would ordinarily only be available on GitHub. I would issue a git fetch command to update the local copy of the remote branch and use git diff locally to compare the local and remote repositories locally.
+
+Q4. 
+
+
+
+
